@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
+* [ReportCreatorForm.cs](./CS/ReportCreatorForm.cs) (VB: [ReportCreatorForm.vb](./VB/ReportCreatorForm.vb))
+* [XtraReport1.cs](./CS/XtraReport1.cs) (VB: [XtraReport1.vb](./VB/XtraReport1.vb))
+<!-- default file list end -->
 # OBSOLETE - How to create a report in a separate thread
 
 
