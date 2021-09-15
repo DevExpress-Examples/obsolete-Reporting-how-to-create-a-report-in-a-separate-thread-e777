@@ -2,7 +2,9 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E777)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# OBSOLETE - How to create a report in a separate thread
+# How to create a report in a separate thread
 
-Starting with v9.1, report background generation mode is always enabled by default. You do not need to write code to use this behavior.
+The [WinForms Document Viewer](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPrinting.Preview.DocumentViewer) by default creates document pages in the `Application.Idle` event. Users may access document pages as soon as pages are ready. The progress bar down below the viewer indicates document generation progress. Users can stop document generation if required.
+
+You may wish to enable the [DocumentViewer.UseAsyncDocumentCreation](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPrinting.Control.PrintControl.UseAsyncDocumentCreation) option and enhance user experience while previewing, exporting, and printing reports. For more information, refer to the following article: [How to create a report in a separate thread](https://supportcenter.devexpress.com/ticket/details/a2359/how-to-create-a-report-in-a-separate-thread).
 
